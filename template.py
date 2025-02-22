@@ -2,13 +2,18 @@ import logging
 import os 
 from pathlib import Path
 
+
+'''
+creates template files and folders for the project
+'''
+
 list_of_files = [
     '.github/workflows/.gitkeep',
     'src/__init__.py',
     'src/logger/logging.py',
-    'src/exception/exception.py'
+    'src/exceptions/exception.py',
     'src/components/__init__.py',
-    'src/componenets/data_ingestion.py',
+    'src/components/data_ingestion.py',
     'src/components/data_transformation.py',
     'src/components/model_trainer.py',
     'src/components/model_evaluation.py',
